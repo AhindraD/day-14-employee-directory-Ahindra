@@ -1,4 +1,53 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(19, 51, 86);
+  color: azure;
+}
+
+h1 {
+  margin: 30px auto;
+  text-align: center;
+  -webkit-text-stroke: 1px #00c8ffb4;
+}
+
+.container {
+  display: flex;
+  width: 80vw;
+  margin: 30px auto;
+  height: fit-content;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding: 0;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 80px;
+  width: 32%;
+  padding: 0 20px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  color: darkcyan;
+  gap: 30px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +84,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
